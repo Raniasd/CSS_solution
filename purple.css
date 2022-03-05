@@ -1,0 +1,65 @@
+body{
+
+    background-color: #0fcf90;
+    
+}
+h1{
+    color:#b9105e;
+}
+h2 {
+    color: orange;
+}
+ul {
+    color:rgb(54, 54, 206);
+}
+p{
+    background-color: yellow;
+}
+
+form>input{
+    border-style: groove;
+    border-width: 3px;
+    border-color: red;
+}
+.hello{
+    background-color: white;
+}
+#special{
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+}
+div>p{
+    font-size: 25px;
+}
+input[type=text]{
+    background-color: gray;
+}
+div:nth-of-type(3)>p{
+    background: pink;
+}
+div:nth-of-type(3)>p:nth-of-type(2){
+    border-style: groove;
+    border-color: white;
+    border-width: 5px;
+}
+div:nth-of-type(3) p em{
+    color: white;
+    font-size: 20px;
+} 
+input:checked {
+    margin-left: 50px;
+}
+label{
+    text-transform: uppercase;
+}
+#special::first-letter{
+    font-size: 100;
+    color: #0e8a42;
+}
+h1:hover {
+    color:blue;
+  }
+  a:visited {
+    color: gray;
+  }
